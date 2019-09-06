@@ -1,0 +1,31 @@
+header {
+	height: 657px;
+	background: {
+		image: url('./../img/banner/banner-bg.jpg');
+		position: center;
+		size: cover;
+	}
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.infor {
+		overflow-x: hidden;
+		text-align: left;
+		height: 400px;
+		padding-top:50px;
+		h1 {
+			font-size: 50px;
+			font-weight: 900;
+			color: black;
+			margin-bottom: 40px;
+		}
+	}
+	.image {
+		background: {
+			image: url('./../img/banner/banner-img.png');
+			position: center;
+			size: contain;
+			repeat: no-repeat;
+		};
+	}
+}

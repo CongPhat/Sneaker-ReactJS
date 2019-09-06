@@ -1,0 +1,45 @@
+.deal {
+	&__title {
+		margin-bottom: 30px;
+		h1 {
+			font: {
+				size: 30px;
+				weight: 600;
+			};
+			color: #111111;
+		}
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 50px;
+		&--image {
+			cursor: pointer;
+		}
+		&--info {
+			padding: 10px;
+			h1 {
+				font-size: 14px;
+				color: black;
+				cursor: pointer;
+				transition: 0.5s;
+				&:hover {
+					color: #ffba00;
+				}
+			}
+			h2 {
+				display: inline-block;
+				font-size: 14px;
+				font-weight: 600;
+			}
+			h2:first-of-type {
+				margin-right: 10px;
+				color: black;
+			}
+			h2:last-of-type {
+				text-decoration: line-through;
+				color: #CCCCCC;
+			}
+		}
+	}
+}

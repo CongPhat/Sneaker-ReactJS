@@ -1,0 +1,46 @@
+.features {
+	display: flex;
+	box-shadow:0 0 10px lightgrey;
+	&__item {
+		flex: 25%;
+		padding: 30px;
+		border: none;
+		&:not(:last-child){
+			border-right: 0.5px solid lightgrey;
+		}
+		h6 {
+			font-weight: 600;
+			color: black;
+		}
+		p {
+
+		}
+	}
+	&__image {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+.features {
+	display: block;
+	&__item {
+		&:not(:last-child){
+			border-bottom: 0.5px solid lightgrey;
+			border-right:none;
+		}
+	}
+}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	
+.features {
+	&__item {
+		padding: 30px 10px;
+	}
+}
+
+}
